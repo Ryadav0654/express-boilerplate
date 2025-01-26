@@ -1,0 +1,80 @@
+# Contributing to Express Boilerplate
+
+Thank you for considering contributing to the **Express Boilerplate** project! Contributions, whether big or small, are always welcome and appreciated.
+
+## How to Contribute
+
+1. **Fork the Repository**  
+   Fork this repository to your own GitHub account by clicking the **Fork** button.
+
+2. **Clone Your Fork**  
+   Clone your fork locally to work on it:
+   ```bash
+   git clone https://github.com/your-username/express-boilerplate.git
+   cd express-boilerplate
+   ```
+
+3. **Install Dependencies**  
+   Use `pnpm` to install all dependencies:
+   ```bash
+   pnpm install
+   ```
+
+4. **Create a Branch**  
+   Always create a new branch for your work. Use a descriptive branch name:
+   ```bash
+   git checkout -b feature/my-awesome-feature
+   ```
+
+5. **Make Your Changes**  
+   Make sure your changes follow the coding standards enforced by ESLint and Prettier. Run the following to check for errors:
+   ```bash
+   pnpm lint
+   ```
+
+6. **Test Your Changes**  
+   Verify your changes by running the application locally:
+   ```bash
+   pnpm dev
+   ```
+
+7. **Commit Your Changes**  
+   Use meaningful commit messages that describe your changes:
+   ```bash
+   git add .
+   git commit -m "Add feature: Description of the feature"
+   ```
+
+8. **Push Your Changes**  
+   Push your changes to your forked repository:
+   ```bash
+   git push origin feature/my-awesome-feature
+   ```
+
+9. **Submit a Pull Request**  
+   Go to the original repository and submit a pull request. Be sure to include:
+   - A clear title for your pull request.
+   - A detailed description of the changes you made.
+   - Mention if it fixes any existing issues (e.g., "Fixes #42").
+
+---
+
+## Guidelines
+
+- **Write Clean Code**: Ensure your code follows the existing coding standards and uses TypeScript features effectively.
+- **Respect Existing Code**: Avoid making unnecessary changes to the existing codebase unless it's part of the feature or fix you're working on.
+- **Run Linting and Formatting**: Always run `pnpm lint` and `pnpm prettier` before submitting a pull request.
+- **Stay Updated**: Pull the latest changes from the main branch before creating a pull request:
+   ```bash
+   git pull origin main
+   ```
+
+---
+
+## Reporting Issues
+
+If you encounter bugs, have questions, or want to suggest a new feature, feel free to [open an issue](https://github.com/Ryadav0654/express-boilerplate/issues). Provide as much detail as possible to help us address your concerns efficiently.
+
+---
+
+Thank you for contributing! Your support makes this project better for everyone. 😊
