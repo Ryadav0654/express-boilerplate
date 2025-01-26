@@ -27,6 +27,7 @@ Ensure you have the following installed:
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/express-boilerplate.git
    cd express-boilerplate
@@ -42,11 +43,13 @@ Ensure you have the following installed:
 ### Usage
 
 #### Start the server
+
 ```bash
 pnpm start
 ```
 
 #### Start the server in development mode
+
 ```bash
 pnpm dev
 ```
@@ -62,6 +65,7 @@ pnpm dev
 - **`pnpm build`**: Builds the project for production.
 
 ---
+
 ## Folder Structure
 
 ```
@@ -88,18 +92,22 @@ express-boilerplate/
 ## Code Quality
 
 ### TypeScript
+
 - Provides type safety and better developer experience.
 - Configuration can be found in `tsconfig.json`.
 
 ### ESLint
+
 - Lints the codebase to enforce consistent code style and catch errors.
 - Configuration is in `.eslintrc.json`.
 
 ### Prettier
+
 - Formats the codebase for consistent styling.
 - Configuration is in `.prettierrc`.
 
 ### Husky
+
 - Runs linting and formatting checks before every commit to maintain code quality.
 - Pre-commit hook configuration is set in the `package.json` under the `husky` section.
 
@@ -108,9 +116,11 @@ express-boilerplate/
 ## Build and Deployment
 
 #### Build for production
+
 ```bash
 pnpm build
 ```
+
 ---
 
 ## Contributing
@@ -129,16 +139,21 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Ravindra Yadav**  
 [MERN Stack Developer](https://ravindrayadav.vercel.app)
+
 ### Key Updates for pnpm and TypeScript:
+
 1. **pnpm Integration**:
+
    - Updated commands to use `pnpm`.
    - Added `pnpm-lock.yaml` to the folder structure.
 
 2. **TypeScript**:
+
    - Replaced JavaScript file references with TypeScript (`.ts`).
    - Mentioned `tsconfig.json` in the structure.
 
 3. **Build Scripts**:
+
    - Added `build` and `clean` scripts for production-ready code.
 
 4. **Folder Structure**:
