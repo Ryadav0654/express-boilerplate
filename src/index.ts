@@ -4,14 +4,14 @@ import cors from "cors";
 dotenv.config();
 
 const app: Express = express();
-const port: number | string = process.env.PORT || 3000;
+const port: number | string = process.env.PORT || 7000;
 
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello from express boilerplate!");
+  res.send("Hello from payman challenge!");
 });
 
 app.listen(port, () => {

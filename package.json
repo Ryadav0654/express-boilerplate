@@ -1,5 +1,5 @@
 {
-  "name": "express_boilerplate",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -14,13 +14,14 @@
   "keywords": [],
   "author": "Ravindra Yadav",
   "license": "ISC",
-  "description": "A modern and customizable Express.js boilerplate for building scalable server-side applications. Pre-configured with ESLint, Prettier, and Husky for consistent code quality, and includes essential middleware and folder structure.",
+  "description": "Backend for payman chanllenge",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
     "@eslint/js": "^9.19.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
